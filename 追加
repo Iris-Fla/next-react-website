@@ -1,0 +1,13 @@
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/react-fontawesome
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/free-brands-svg-icons
+
+npm install microcms-js-sdk
+
+npm install date-fns
+
+npm install html-to-text
+
+npm install html-react-parser
