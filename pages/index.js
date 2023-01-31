@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Container>
       <Meta pageTitle={"ブログ"} />
-      <Hero title={"CUBE"} subtitle={"CUBECUBECUBECUBEテトリス"} imageOn />
+      <Hero title={"DEBA"} subtitle={"諸行無常の響きあるハダカデバネズミの生態について"} imageOn />
     </Container>
   );
 }

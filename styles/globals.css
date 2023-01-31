@@ -1,10 +1,10 @@
 :root {
-  --white: #ffffff;
-  --gray-10: #eeeeee;
+  --white: #ff0000;
+  --gray-10: #d13a3a;
   --gray-25: #aaaaaa;
   --gray-50: #707070;
-  --gray-75: #444444;
-  --black: #222222;
+  --gray-75: #58888f;
+  --black: #5e6be2;
   --accent: #0d87e0;
 
   --body: clamp(1rem, 0.95rem+0.2vw, 1.125rem);
@@ -27,10 +27,24 @@ body {
   font-family: -apple-sytem, BlinkMacSystemFont, "Segoe UI", Helevetica, Arial,
     sans-serif;
   font-size: var(--body);
+  height: 80px;
+    animation: 20s example5 linear infinite;
+}
+@keyframes example5{
+    0%{background: #6dbec9}
+    14%{background: #4082b8}
+    28%{background: #8b56c7}
+    42%{background: #a35388}
+    56%{background: #5393c4}
+    70%{background: #5e6be2}
+    85%{background: #af80fa}
+    100%{background: #6dbec9}
 }
 
 h1 {
+  margin: 20em;
   font-size: var(--heading1);
+  
 }
 
 h2 {
